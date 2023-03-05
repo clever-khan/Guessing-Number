@@ -18,6 +18,7 @@ def main():
 
 
 def make_bet():
+    """ This function creates an opponent for you and you can bet as well """
     opponents = ['Asfand', 'Faizan', 'Sulaeman', 'Asad', 'Fawad', 'Mani'] # NOQA
     opponent_bet = [20, 30, 40, 50, 60, 70, 80, 90, 100]
     opponent = random.choice(opponents)
